@@ -11,7 +11,9 @@ Password = root
 MaxConnectionCount = 20
 
 #hibernate options
-#Hibernate.hbm2ddl = @hibernate-hbm2ddl-auto@
-#Hibernate.dialect = @hibernate-dialect@
 Hibernate.hbm2ddl = create
 Hibernate.dialect = org.hibernate.dialect.MySQL5InnoDBDialect
+
+ClientId =
+AuthorizationCodeHandlerUri =
+ServerAddress =
