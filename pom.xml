@@ -114,6 +114,11 @@
         <repository>
             <id>imcode</id>
             <url>http://repo.imcode.com/maven2</url>
+            <snapshots>
+                <checksumPolicy>warn</checksumPolicy>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
         </repository>
         <repository>
             <id>central</id>
