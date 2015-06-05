@@ -56,12 +56,6 @@
                                         mergeFile="${basedir}/local.server.properties"
                                         destFile="target/${project.build.finalName}/WEB-INF/conf/server.properties"/>
 
-                                <taskdef name="mergeproperties" classname="com.imcode.ant.tasks.PropertiesMerge"/>
-                                <mergeproperties
-                                        srcFile="target/${project.build.finalName}/WEB-INF/cfg/server.properties"
-                                        mergeFile="${basedir}/local.server.properties"
-                                        destFile="target/${project.build.finalName}/WEB-INF/cfg/server.properties"/>
-
                                 <if>
                                     <available file="${basedir}/src/main/webapp/WEB-INF/web.xml"/>
                                     <then>
